@@ -122,7 +122,10 @@ def depthFirstSearch(problem):
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-
+    # creating an instance of a Queue and pass as argument to searchAlgorithm class
+    search = SearchAlgorithm(util.Queue())
+    x =  search.Searching(problem)
+    return x
     util.raiseNotDefined()
 
 def uniformCostSearch(problem):
