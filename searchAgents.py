@@ -295,6 +295,9 @@ class CornersProblem(search.SearchProblem):
         space)
         """
         "*** YOUR CODE HERE ***"
+        # empty list to handle visited nodes
+        visited_nodes = []
+        return (self.startingPosition, visited_nodes)
         util.raiseNotDefined()
 
     def isGoalState(self, state):
